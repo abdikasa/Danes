@@ -1,0 +1,151 @@
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif;
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0 75px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+html {
+    /* background-color: rgb(22, 22, 22); */
+    color: #555;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url('/resources/img/hero.jpg');
+    height: 114vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text-center {
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 1140px;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-text-center h5 {
+    font-size: 90%;
+    font-weight: 600;
+    letter-spacing: 0.5em;
+}
+
+.hero-text-center h1 {
+    font-size: 420%;
+    font-weight: 600;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+.btn:link, .btn:visited {
+    display: inline-block;
+    padding: 30px 80px;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color, border, color 0.15s;
+    font-size: 85%;
+}
+
+.btn-full:link, .btn-full:visited {
+    background-color: #f5be18;
+    border: 2px solid #f5be18;
+    color: #003149;
+    font-weight: 600;
+}
+
+.btn-full:hover, .btn-full:active {
+    background-color: #003149;
+    color: #fff;
+    border: 2px solid #003149;
+}
+
+.nav-row {
+    padding:30px 100px;
+    display: flex;
+    justify-content: space-between;
+    text-shadow: 0 0 8px rgb(0, 0, 0, 0.20);
+}
+
+.nav-dir a, .user-icons {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.nav-dir a, .user-icons a {
+    margin-left: 50px;
+}
+
+.nav-dir, .user-icons {
+    list-style-type: none;
+}
+
+.nav-dir {
+    padding-top: 20px;
+}
+
+.nav-dir li, .user-icons li {
+    display: inline-block;
+}
+
+.logo {
+    font-size: 250%;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 0.3em;
+}
+
+svg {
+    vertical-align: middle;
+}
+
+.user-icons a {
+color: #fff;
+font-size: 160%;
+vertical-align: middle;
+}
+
+.user-icons {
+    padding: 12px 0px;
+}
+
+#cart_count {
+    background-color: #f5be18;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    text-align: center;
+    display: inline-block;
+}
+
+.nav-dir li a:link, .nav-dir li a:visited, .user-icons li a:link, .user-icons li a:visited  {
+transition: color, background-color 0.4s;
+} 
+
+.nav-dir li a:hover, .nav-dir li a:active, .user-icons li a:active, 
+.user-icons li a:hover {
+    color: #f5be18;
+} 
