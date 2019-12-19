@@ -30,7 +30,7 @@ html {
 }
 
 header {
-    background-image: url('resources/img/hero.jpg');
+    background-image: url("/resources/img/hero.jpg");
     height: 114vh;
     background-size: cover;
     background-position: center;
@@ -82,7 +82,7 @@ header {
 }
 
 .nav-row {
-    padding:30px 100px;
+    padding: 30px 100px;
     display: flex;
     justify-content: space-between;
     text-shadow: 0 0 8px rgb(0, 0, 0, 0.20);
@@ -122,9 +122,9 @@ svg {
 }
 
 .user-icons a {
-color: #fff;
-font-size: 160%;
-vertical-align: middle;
+    color: #fff;
+    font-size: 160%;
+    vertical-align: middle;
 }
 
 .user-icons {
@@ -141,11 +141,10 @@ vertical-align: middle;
     display: inline-block;
 }
 
-.nav-dir li a:link, .nav-dir li a:visited, .user-icons li a:link, .user-icons li a:visited  {
-transition: color, background-color 0.4s;
-} 
+.nav-dir li a:link, .nav-dir li a:visited, .user-icons li a:link, .user-icons li a:visited {
+    transition: color, background-color 0.4s;
+}
 
-.nav-dir li a:hover, .nav-dir li a:active, .user-icons li a:active, 
-.user-icons li a:hover {
+.nav-dir li a:hover, .nav-dir li a:active, .user-icons li a:active, .user-icons li a:hover {
     color: #f5be18;
-} 
+}
