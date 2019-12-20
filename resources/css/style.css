@@ -13,11 +13,13 @@ body {
     padding: 0 75px;
     overflow: scroll;
     overflow-x: hidden;
+    background-color: #0e0e0e;
 }
 
 html {
     /* background-color: rgb(22, 22, 22); */
-    color: #555;
+    color: #000;
+    color: #0e0e0e;
     font-family: 'Work Sans', sans-serif;
     font-size: 20px;
     font-weight: 300;
@@ -25,7 +27,7 @@ html {
 }
 
 .row {
-    max-width: 1140px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -44,12 +46,13 @@ header {
     width: 1140px;
     color: #fff;
     text-align: center;
+    line-height: 0.7;
 }
 
 .hero-text-center h5 {
-    font-size: 90%;
-    font-weight: 600;
-    letter-spacing: 0.5em;
+    font-size: 82.5%;
+    font-weight: 700;
+    letter-spacing: 0.28em;
 }
 
 .hero-text-center h1 {
@@ -111,7 +114,7 @@ header {
 }
 
 .logo {
-    font-size: 250%;
+    font-size: 245%;
     font-weight: 600;
     color: #fff;
     letter-spacing: 0.3em;
@@ -147,4 +150,64 @@ svg {
 
 .nav-dir li a:hover, .nav-dir li a:active, .user-icons li a:active, .user-icons li a:hover {
     color: #f5be18;
+}
+
+section {
+    padding: 80px 0px;
+}
+
+#product-showcase {
+    background-color: #fff;
+    height: 100%;
+}
+
+#product-showcase h1 {
+    color: rgb(20, 20, 20);
+    font-size: 350%;
+    font-weight: 600;
+    width: 90%;
+    line-height: 1.2em;
+}
+
+#product-showcase p {
+    font-family: 'Roboto', 'sans-serif';
+    width: 95%;
+    font-size: 120%;
+    color: #565555de;
+    font-weight: 600;
+    line-height: 1.8;
+}
+
+.pf-icon {
+    color: #f5be18;
+    font-size: 4em;
+}
+
+#paint-feature-list {
+    font-family: 'Roboto', 'sans-serif';
+    padding: 70px 0;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#paint-feature-list p {
+    font-size: 70%;
+    font-weight: 600;
+    letter-spacing:3px;
+}
+
+.paint-feature {
+    margin: 0 10px;
+}
+
+#paint_box {
+height: auto;
+width: 100%;
+}
+
+#product-container {
+    display: flex;
+    min-height: 60vh;
+    align-items: flex-end;
 }
