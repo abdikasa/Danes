@@ -16,26 +16,32 @@
 <body>
     <header>
         <nav>
-           <div class="nav-row">
-               <div class="logo">CLAIRE</div>
-               <ul class="nav-dir">
-                <li><a href="#">Paint<svg style="width:24px;height:24px" viewBox="0 0 24 24">
-                    <path fill="#fff" d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-                </svg></a></li>
-                <li><a href="#">Supplies<svg style="width:24px;height:24px" viewBox="0 0 24 24">
-                    <path fill="#fff" d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-                </svg></a></li>
-                <li><a href="#">Find Your Color</a></li>
-                <li><a href="#">Reviews</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">About</a></li>
-               </ul>  
-               <ul class="user-icons">
-                <li><a href="#"><ion-icon name="star-outline"></ion-icon></a></li>
-                <li><a href="#"><ion-icon name="person"></ion-icon></a></li>
-                <li><a href="#"><ion-icon name="cart"></ion-icon></a><span id='cart_count'>0</span></li>     
-               </ul>
-           </div>
+            <div class="nav-row">
+                <div class="logo">CLAIRE</div>
+                <ul class="nav-dir">
+                    <li><a href="#">Paint<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="#fff" d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+                            </svg></a></li>
+                    <li><a href="#">Supplies<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="#fff" d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+                            </svg></a></li>
+                    <li><a href="#">Find Your Color</a></li>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+                <ul class="user-icons">
+                    <li><a href="#">
+                            <ion-icon name="star-outline"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="person"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="cart"></ion-icon>
+                        </a><span id='cart_count'>0</span></li>
+                </ul>
+            </div>
         </nav>
         <div class="hero-text-center">
             <h5>MEET CLAIRE</h5>
@@ -43,6 +49,7 @@
             <a href="#" class="btn btn-full">Explore Our Colors</a>
         </div>
     </header>
+    <div class="additive"></div>
     <section id="product-showcase">
         <div class="row">
             <div class="col span-1-of-2">
@@ -74,7 +81,32 @@
                 </div>
             </div>
         </div>
-
+    </section>
+    <section id="color-quiz">
+        <div class="row">
+            <div class="col span-1-of-2">
+                <div class="color-quiz-container">
+                <div class="content-quiz">
+                    <h2>Take the Color <br>Genius Quiz</h2>
+                    <p>Answer a few easy questions and get a personalized paint color
+                        recommendation for your space. It's like having an interior designer to 
+                        guide you &mdash; all from the comfort of your couch.
+                    </p>
+                    <a href="#" class="btn btn-full">Find Your Color</a>
+                </div>
+            </div>
+        </div>
+            <div class="col span-1-of-2">
+                <div class="tool-tip--quiz">
+                    <span id="letterC">C</span>
+                    <div id="tool-tip-box">
+                        <p>Based on your preferences, I'd recommend a sophisticated, minimal 
+                            gray like <b>Seize the Gray</b> for your living room.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 
