@@ -78,7 +78,7 @@ header {
     text-decoration: none;
     border-radius: 200px;
     transition: background-color, border, color 0.15s;
-    font-size: 85%;
+    font-size: 95%;
 }
 
 .btn-full:link, .btn-full:visited {
@@ -185,7 +185,7 @@ svg {
 
 section {
     /* padding: 7em 0 1.3em 0; */
-    padding: 2em 0 4em 0;
+    padding: 2em 0 4.3em 0;
 }
 
 #product-showcase {
@@ -248,9 +248,8 @@ section {
     text-align: center;
     background-color: #fff;
     max-width: 32rem;
-    height:35rem;
+    height: 35rem;
     padding: 50px 80px;
-
 }
 
 #color-quiz {
@@ -259,13 +258,13 @@ section {
     display: flex;
 }
 
-.content-quiz h2 {
+.content-quiz h2, .demo-reel-content h2 {
     font-size: 250%;
     padding: 2rem 0;
     line-height: 1.3;
 }
 
-.content-quiz p, .content-quiz a{
+.content-quiz p, .content-quiz a {
     padding-bottom: 3rem;
 }
 
@@ -276,16 +275,15 @@ section {
 }
 
 #letterC {
-    
-        background: #f5be18;
-        color: #fff;
-        padding: 5px 20px;
-        border-radius: 50%;
-        font-size: 300%;
-        font-weight: 600;
-        height:12%;
-        display: inline-block;
-        transform: translateY(-72%);
+    background: #f5be18;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 50%;
+    font-size: 300%;
+    font-weight: 600;
+    height: 12%;
+    display: inline-block;
+    transform: translateY(-72%);
 }
 
 #tool-tip-box p {
@@ -299,4 +297,189 @@ section {
     font-weight: 600;
     color: #565555de;
     line-height: 1.3;
+}
+
+#paint-sample {
+    background-color: #f6fafb;
+}
+
+.bg-sample {
+    background: url('../img/sample_paint2.jpg');
+    background-size: cover;
+    background-position: right;
+    height: 80vh;
+}
+
+.no-margin {
+    margin: 1% 0 0 0;
+}
+
+.sample-paint-content {
+    background-color: #EFEFEF;
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    padding: 60px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Work Sans', 'sans-serif';
+    text-align: center;
+}
+
+.sample-paint-content>*, .demo-reel-content>* {
+    padding: 3%;
+}
+
+.sample-paint-content h3 {
+    font-size: 200%;
+    line-height: 1.3;
+}
+
+.sample-paint-content p, .demo-reel-content p {
+    letter-spacing: 1px;
+    margin: 0 auto;
+    word-spacing: 1px;
+    font-weight: 600;
+    color: #565555de;
+    color: #0e0e0eb0;
+    line-height: 1.5;
+    width: 90%;
+    padding-bottom: 5%;
+}
+
+.sample-paint-content a:link, .sample-paint-content a:visited,
+.sample-container a:link, .sample-container a:visited {
+    color: #0e0e0e;
+    padding: 0;
+    font-size: 80%;
+    font-weight: 600;
+    border-bottom: 2px solid #f5be18;
+}
+
+/* 
+.adjusted-width {
+    max-width: 1800px;
+} */
+
+#demo-reel {
+    background-color: #f6fafb;
+    text-align: center;
+}
+
+.demo-reel-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    padding: 60px;
+}
+
+.demo-reel-content h2 {
+    padding: 0 110px 20px 110px;
+}
+
+.demo-reel-content a:link, .demo-reel-content a:visited {
+    align-self: flex-start;
+    margin: 1.2em auto;
+}
+
+.demo-reel-interactive {
+    background: url('../img/penthouse-grey.jpg');
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.sample-container {
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: left;
+    height: 125px;
+    max-width: 375px;
+    margin-left:auto;
+    padding: 15px 0 0 0;
+    box-shadow: 0 0 12px rgba(0,0,0, 0.25);
+}
+
+.sample-container img {
+    width:70px;
+    height:70px;
+    float: left;
+}
+
+.sample-container p {
+    font-size: 80%;
+    padding: 10px 0;
+}
+
+.sample-container h5 {
+    font-size: 100%;
+}
+
+
+.select-color {
+    background-color: #fff;
+    border-radius: 200px;
+    width: 250px;
+    height:75px;
+    position: absolute;
+    bottom:50px;
+    right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 12px rgba(0,0,0, 0.25);
+
+}
+
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .selected-color {
+      border: 1px solid #000;
+}
+
+#happiness_guarantee{
+    padding: 0;
+    background-color: #f6fafb;
+}
+
+.line-seperator-v{
+    background-color: #f5be18;
+    height: 100px;
+    width: 3px;
+}
+
+.happiness_claim {
+    margin: 0 auto;
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.happiness_claim img {
+    transform: rotate(12deg);
+    border-radius: 200px;
+    border: 2px solid black;
+    width: 100px;
+    height: 95px;
+    padding: 10px;
+}
+
+.happiness_claim p {
+    width: 50%;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    line-height: 1.4;
+    color:#0e0e0e;
+    font-weight: 600;
+    font-size: 105%;
 }
